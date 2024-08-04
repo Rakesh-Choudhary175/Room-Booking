@@ -51,10 +51,9 @@ function TodayActivity() {
       {!isLoading ? (
         activities.length > 0 ? (
           <TodayList>
-            {activities /
-              Map((activity) => (
-                <TodayItem activity={activity} key={activity.id} />
-              ))}
+            {activities.map((activity) => (
+              <TodayItem activity={activity} key={activity.id} />
+            ))}
           </TodayList>
         ) : (
           <NoActivity>No Activity today...</NoActivity>
