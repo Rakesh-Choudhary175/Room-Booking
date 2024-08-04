@@ -4,7 +4,6 @@ import Heading from "../ui/Heading";
 
 function NewUsers() {
   const { user } = useUser();
-  console.log(user);
   return (
     <>
       <Heading as="h1">Create a new user</Heading>

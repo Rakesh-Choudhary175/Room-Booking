@@ -6,7 +6,6 @@ import { useUser } from "../features/authentication/useUser";
 
 function Account() {
   const { user } = useUser();
-  console.log(user);
   return (
     <>
       <Heading as="h1">Update your account</Heading>
