@@ -21,7 +21,7 @@ function Sidebar() {
     <StyledSidebar>
       <Logo />
       <MainNav />
-      {user.id === "fde095f0-2c11-4ac3-9be1-2951182b074c" && <Uploader />}
+      {user.id === "0834f5f3-84e6-4c25-9906-fbca6d6f779a" && <Uploader />}
     </StyledSidebar>
   );
 }
